@@ -1,0 +1,6 @@
+post_install() {
+  echo -e \
+  '\e[5;37mPlease edit these files to fit your needs:\e[m
+  \e[1;36m/etc/udev/rules.d/powerconf.rules\e[m
+  \e[1;32m/etc/powerconf/*\e[m'
+}
